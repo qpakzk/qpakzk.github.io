@@ -1,0 +1,59 @@
+# Site Settings
+encoding: UTF-8
+exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
+lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
+permalink: /:year/:month/:day/:title/
+
+whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  auto_id_prefix: 'heading-'
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  toc_levels: 1..3
+
+sass:
+  style: compressed
+
+# Site Data
+url: https://qpakzk.github.io/software-notes
+baseurl:
+title: Software Notes
+description: ""
+keywords: ''
+author:
+  name: Sangwon Hong
+  job_title: Software Engineer
+  location: Seoul, Korea
+  email: qpakzk@gmail.com
+  social_links:
+    - name: github
+      url: https://github.com/qpakzk
+    - name: stackoverflow
+      url: https://stackoverflow.com/users/7194797/frodo
+    - name: linkedin
+      url: https://www.linkedin.com/in/qpakzk/
+    - name: facebook
+      url: https://www.facebook.com/qpakzk
+    - name: instagram
+      url: https://www.instagram.com/sangwon_frodo_hong/
+    - name: twitter
+      url: https://twitter.com/qpakzk
+blog:
+  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
+  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
+  footer_content: Sangwon Hong, Software Engineer from Seoul, Korea
+disqus:
+  shortname: Software-Shelf
+  public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
+google_analytics: UA-112124028-1
+addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5
+
+paths:
+  blog: /
+  tags: /tags/
