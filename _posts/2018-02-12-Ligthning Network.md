@@ -2,7 +2,7 @@
 layout: post
 title: "Lightning Network"
 description: ""
-tags: [Blockchain]
+tags: [blockchain]
 redirect_from:
   - /2018/02/12/
 ---

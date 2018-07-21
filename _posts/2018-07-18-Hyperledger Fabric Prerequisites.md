@@ -2,7 +2,7 @@
 layout: post
 title: "Hyperledger Fabric Prerequisites"
 description: ""
-tags: [Hyperledger Fabric]
+tags: [blockchain]
 redirect_from:
   - /2018/07/16/
 ---

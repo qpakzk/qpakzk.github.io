@@ -2,7 +2,7 @@
 layout: post
 title: "Coin vs Token"
 description: ""
-tags: [Blockchain]
+tags: [blockchain]
 redirect_from:
   - /2018/03/01/
 ---
