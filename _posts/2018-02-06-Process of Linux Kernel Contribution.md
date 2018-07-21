@@ -9,7 +9,7 @@ redirect_from:
 
 # Process of Linux Kernel perf contribution
 
-1. Configuration
+## 1. Configuration
 
   First of all, configure an username and an email address in Git.
 
@@ -27,7 +27,7 @@ redirect_from:
   $ git config --global sendemail.smtpserverport 587
   ```
 
-2. Make a commit
+## 2. Make a commit
 
   After adding modified files, make a commit.
 
@@ -60,7 +60,7 @@ redirect_from:
   Signed-off-by: Sangwon Hong <qpakzk@gmail.com>
   ```
 
-3. Make a patch
+## 3. Make a patch
 
   Make a patch to send it to the maintainer. The patch has a commit message.
 
@@ -68,7 +68,7 @@ redirect_from:
   $ git format-patch -1
   ```
 
-4. Send a patch
+## 4. Send a patch
 
   Send a patch to the maintainer. If you send it including other developers, you can use -cc option.
 
