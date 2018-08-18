@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Relationship between public blockchain and cryptocurrency"
+title: "[Blockchain] Relationship between public blockchain and cryptocurrency"
 description: ""
 categories: [blockchain]
 redirect_from:

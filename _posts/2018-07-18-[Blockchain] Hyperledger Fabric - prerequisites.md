@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hyperledger Fabric - prerequisites"
+title: "[Blockchain] Hyperledger Fabric - prerequisites"
 description: ""
 tags: [blockchain]
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a blockchain with Javascript : Part 3"
+title: "[Blockchain] Building a blockchain with Javascript : Part 3"
 description: ""
 tags: [blockchain]
 redirect_from:
