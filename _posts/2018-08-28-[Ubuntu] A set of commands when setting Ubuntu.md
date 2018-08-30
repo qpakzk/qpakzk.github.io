@@ -17,16 +17,25 @@ $ sudo apt-get update
 $ sudo apt-get install -y vim
 ```
 
-## VMWare Tools 설치
+## .vimrc 설정
 
 ```sh
-$ sudo apt-get install open-vm-tools open-vm-tools-desktop
+syntax on
+set number
+set hlsearch
+set autoindent
 ```
 
 ## 터미널 기본 편집기 변경
 
 ```sh
 $ sudo update-alternatives --config editor
+```
+
+## VMWare Tools 설치
+
+```sh
+$ sudo apt-get install open-vm-tools open-vm-tools-desktop
 ```
 
 ## git 설치 및 설정
