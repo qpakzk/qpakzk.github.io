@@ -28,3 +28,11 @@ $ sudo apt-get install open-vm-tools open-vm-tools-desktop
 ```sh
 $ sudo update-alternatives --config editor
 ```
+
+## git 설치 및 설정
+
+```sh
+$ sudo apt-get install -y git
+$ git config --global user.name "Sangwon Hong"
+$ git config --global user.email "qpakzk@gmail.com"
+```
