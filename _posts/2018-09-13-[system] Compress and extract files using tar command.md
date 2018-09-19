@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Command] Compress and extract files using tar command"
+title: "[System] Compress and extract files using tar command"
 description: ""
-tags: [command]
+tags: [system]
 redirect_from:
   - /2018/09/13/
 ---

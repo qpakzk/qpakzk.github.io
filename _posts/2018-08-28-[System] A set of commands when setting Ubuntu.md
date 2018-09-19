@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Ubuntu] A set of commands when setting Ubuntu"
+title: "[System] A set of commands when setting Ubuntu"
 description: ""
-tags: [ubuntu]
+tags: [system]
 redirect_from:
   - /2018/08/28/
 ---
