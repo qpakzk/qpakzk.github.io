@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Open Source] Process of Linux Kernel perf contribution"
+title: "[System] Process of Linux Kernel perf contribution"
 description: ""
-tags: [open source]
+tags: [system]
 redirect_from:
   - /2017/02/06/
 ---
