@@ -2,7 +2,7 @@
 layout: post
 title: "[Blockchain] Building a blockchain with Javascript : Part 1"
 description: ""
-tags: [blockchain]
+tags: [Blockchain]
 redirect_from:
   - /2018/02/10/
 ---

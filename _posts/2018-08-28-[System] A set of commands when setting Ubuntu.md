@@ -2,7 +2,7 @@
 layout: post
 title: "[System] A set of commands when setting Ubuntu"
 description: ""
-tags: [system]
+tags: [System]
 redirect_from:
   - /2018/08/28/
 ---
