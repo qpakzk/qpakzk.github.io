@@ -2,7 +2,7 @@
 layout: post
 title: "[Git] A set of git commands using frequently"
 description: ""
-tags: [git]
+tags: [Git]
 redirect_from:
   - /2018/08/28/
 ---

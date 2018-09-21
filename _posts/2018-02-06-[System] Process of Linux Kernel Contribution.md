@@ -2,7 +2,7 @@
 layout: post
 title: "[System] Process of Linux Kernel perf contribution"
 description: ""
-tags: [system]
+tags: [System]
 redirect_from:
   - /2017/02/06/
 ---

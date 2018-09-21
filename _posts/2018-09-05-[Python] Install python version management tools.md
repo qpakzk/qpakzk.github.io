@@ -2,7 +2,7 @@
 layout: post
 title: "[Python] Install python version management tools"
 description: ""
-tags: [python]
+tags: [Python]
 redirect_from:
   - /2018/09/05/
 ---

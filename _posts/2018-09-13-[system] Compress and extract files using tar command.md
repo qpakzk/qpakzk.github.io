@@ -2,7 +2,7 @@
 layout: post
 title: "[System] Compress and extract files using tar command"
 description: ""
-tags: [system]
+tags: [System]
 redirect_from:
   - /2018/09/13/
 ---
