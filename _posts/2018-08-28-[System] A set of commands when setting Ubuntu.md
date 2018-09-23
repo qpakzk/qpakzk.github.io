@@ -17,15 +17,6 @@ $ sudo apt-get update
 $ sudo apt-get install -y vim
 ```
 
-## .vimrc 설정
-
-```sh
-syntax on
-set number
-set hlsearch
-set autoindent
-```
-
 ## 터미널 기본 편집기 변경
 
 ```sh
