@@ -26,7 +26,7 @@ $ sudo update-alternatives --config editor
 ## VMWare Tools 설치
 
 ```sh
-$ sudo apt-get install open-vm-tools open-vm-tools-desktop
+$ sudo apt-get install open-vm-tools open-vm-tools-desktop -y
 ```
 
 ## git 설치 및 설정
