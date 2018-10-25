@@ -22,13 +22,15 @@ redirect_from:
 
 ## 머신러닝 (Machine Learning, ML)
 
-* 데이터를 이용하여 명시적으로 정의되어 있지 않은 패턴을 학습하여 미래 결과값을 예측하는 것
+* 데이터를 이용하여 명시적으로 정의되어 있지 않은 데이터의 특성과 패턴을 학습하여, 그 결과를 바탕으로 미지의 데이터에 대한 미래 결과(값, 분포)을 예측하는 것
 * Regression, Classification, Neural Network, ...
+
+> 데이터 마이닝 (Data Mining) : 데이터 간에 상관관계 또는 속성을 찾는 것이 주목적
 
 ## 딥러닝 (Deep Learing, DL)
 
-* 머신러닝의 한 분야로 신경망을 통해 학습하는 알고리즘의 집합
-* CNN, RNN, LSTM, ...
+* 머신러닝의 한 분야로 신경망(Neural Network)을 통해 학습하는 알고리즘의 집합
+* CNN (Convolutional Neural Network), RNN (Recurrent Neural Network), LSTM (Long Short-Term Memory), ...
 
 ## Relation among AI, ML, and DL
 
