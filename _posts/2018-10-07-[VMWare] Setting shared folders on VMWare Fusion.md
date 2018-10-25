@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[System] Setting shared folders on VMWare Fusion"
+title: "[VMWare] Setting shared folders on VMWare Fusion"
 description: ""
-tags: [System]
+tags: [VMWare]
 redirect_from:
   - /2018/10/07/
 ---
