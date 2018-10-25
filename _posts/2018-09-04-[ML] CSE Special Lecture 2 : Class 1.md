@@ -19,6 +19,7 @@ redirect_from:
 ## 인공지능 (Artificial Intelligence, AI)
 
 * 인간의 학습 능력, 추론 능력 등을 컴퓨터를 통해 구현하는 포괄적인 개념
+* Fuzzy Logic을 바탕으로 구현된 세탁기
 
 ## 머신러닝 (Machine Learning, ML)
 
