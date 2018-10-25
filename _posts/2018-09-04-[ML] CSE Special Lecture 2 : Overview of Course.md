@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "[ML] CSE Special Lecture 2 : Class 1"
+title: "[ML] CSE Special Lecture 2 : Overview of Course"
 description: ""
 tags: [ML]
 redirect_from:
   - /2018/09/04/
 ---
 
-# CSE Special Lecture 2 : Class 1
+# CSE Special Lecture 2 : Overview of Course
 
 숭실대학교 컴퓨터학부 2018-2학기에 개설된 《컴퓨터공학특강 2》 강의 내용을 요약하였다. 강의와 관련된 소스코드는 [여기](https://github.com/qpakzk/ssu-cse-computer-science-special-lecture2)에서 확인할 수 있다.
 
