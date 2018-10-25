@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Git] How to rename a file in git"
+title: "[Git] How to rename a file in git (KR)"
 description: ""
 tags: [Git]
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[VMWare] Setting shared folders on VMWare Fusion"
+title: "[VMWare] Setting shared folders on VMWare Fusion (KR)"
 description: ""
 tags: [VMWare]
 redirect_from:

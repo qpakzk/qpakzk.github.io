@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Ubuntu] Setting Korean Keyboard in Ubuntu 16.04 LTS"
+title: "[Ubuntu] Setting Korean Keyboard in Ubuntu 16.04 LTS (KR)"
 description: ""
 tags: [Ubuntu]
 redirect_from:

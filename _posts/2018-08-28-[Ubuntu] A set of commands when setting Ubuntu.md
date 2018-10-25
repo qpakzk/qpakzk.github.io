@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Ubuntu] A set of commands when setting Ubuntu"
+title: "[Ubuntu] A set of commands when setting Ubuntu (KR)"
 description: ""
 tags: [Ubuntu]
 redirect_from:

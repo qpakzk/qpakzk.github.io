@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[System] Setting Vim"
+title: "[System] Setting Vim (KR)"
 description: ""
 tags: [System]
 redirect_from:
