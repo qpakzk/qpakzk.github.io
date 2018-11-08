@@ -258,18 +258,18 @@ redirect_from:
 시험지 내용은 다음과 같았습니다. 질문은 전공 용어를 제외하고 한글로 써져 있었습니다.
 
 1. Boolean Algebra
-  1. Boolean Algebra란 무엇인가?
-  2. functionally complete set of operations란 무엇인가?
-  3. functionally complete한 최소 원소 집합은?
-  4. NAND 게이트로 OR, NOT, AND 게이트 표현하기
+    1. Boolean Algebra란 무엇인가?
+    2. functionally complete set of operations란 무엇인가?
+    3. functionally complete한 최소 원소 집합은?
+    4. NAND 게이트로 OR, NOT, AND 게이트 표현하기
 2. Overflow 문제
-  1. C = A + B와 C = A - B일 때 오버플로우가 되는 경우 따져보기
-  2. 오버플로우가 되는 조건을 두 가지로 표현해보기
+    1. C = A + B와 C = A - B일 때 오버플로우가 되는 경우 따져보기
+    2. 오버플로우가 되는 조건을 두 가지로 표현해보기
 3. 세차장 문제 (과거 기출과 동일). 4단계로 진행, 각 단계는 15분, 400대 차량. (기출 문제와 동일)
-  1. 단일 세차장 일 때 걸리는 시간
-  2. 4개 세차장 일 때 걸리는 시간
-  3. 하나의 파이프라인닝 적용할 때 걸리는 시간
-  4. 4개의 파이프라이닝 가진 슈퍼스칼라일 때 걸리는 시간
+    1. 단일 세차장 일 때 걸리는 시간
+    2. 4개 세차장 일 때 걸리는 시간
+    3. 하나의 파이프라인닝 적용할 때 걸리는 시간
+    4. 4개의 파이프라이닝 가진 슈퍼스칼라일 때 걸리는 시간
 
 나 : 안녕하세요.
 
