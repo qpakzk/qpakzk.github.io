@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "[GradSchool] Interview of POSTECH Graduate School (KR)"
+title: "[POSTECH] POSTECH Graduate School 2 : Interview (KR)"
 description: ""
-tags: [GradSchool]
+tags: [POSTECH]
 redirect_from:
-  - /2018/11/07/
+  - /2018/11/09/
 ---
 
-# Interview of POSTECH Graduate School
+# POSTECH Graduate School 2 : Interview
 
 2018년 11월 2일에 실시한 2019년도 포항공과대학교 대학원 입시 일반전형 2차 컴퓨터공학과 면접에 응시하였습니다.
 
