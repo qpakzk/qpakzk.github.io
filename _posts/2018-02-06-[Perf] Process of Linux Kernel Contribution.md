@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Perf] Process of Linux Kernel perf contribution (EN)"
+title: "[Perf] Process of Linux Kernel perf contribution"
 description: ""
 tags: [Perf]
 redirect_from:

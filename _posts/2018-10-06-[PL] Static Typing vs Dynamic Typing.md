@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[PL] Static Typing vs Dynamic Typing (KR)"
+title: "[PL] Static Typing vs Dynamic Typing"
 description: ""
 tags: [PL]
 redirect_from:

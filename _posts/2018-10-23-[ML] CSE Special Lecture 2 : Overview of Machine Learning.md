@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ML] CSE Special Lecture 2 : Overview of Machine Learning (KR)"
+title: "[ML] CSE Special Lecture 2 : Overview of Machine Learning"
 description: ""
 tags: [ML]
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Lightning Network (KR)"
+title: "[Blockchain] Lightning Network"
 description: ""
 tags: [Blockchain]
 redirect_from:

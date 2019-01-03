@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Blockchain performance Issue (KR)"
+title: "[Blockchain] Blockchain performance Issue"
 description: ""
 categories: [Blockchain]
 redirect_from:
