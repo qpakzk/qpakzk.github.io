@@ -4,7 +4,7 @@ title: "[Perf] Install Perf from source codes on Ubuntu"
 description: ""
 tags: [Perf]
 redirect_from:
-  - /2017/02/06/
+  - /2018/09/22/
 ---
 
 # Building Perf
