@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Application for Decipher"
+title: "Application for Decipher"
 description: ""
 tags: [Blockchain]
 redirect_from:

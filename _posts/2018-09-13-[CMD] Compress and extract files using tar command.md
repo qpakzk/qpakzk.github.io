@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[CMD] Compress and extract files using tar command"
+title: "Compress and extract files using tar command"
 description: ""
 tags: [CMD]
 redirect_from:

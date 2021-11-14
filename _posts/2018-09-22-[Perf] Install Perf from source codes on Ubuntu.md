@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Perf] Install Perf from source codes on Ubuntu"
+title: "Install Perf from source codes on Ubuntu"
 description: ""
 tags: [Perf]
 redirect_from:

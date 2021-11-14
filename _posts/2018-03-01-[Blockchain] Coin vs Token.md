@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Coin vs Token"
+title: "Coin vs Token"
 description: ""
 tags: [Blockchain]
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Git] How to remove files from git repository permanently"
+title: "How to remove files from git repository permanently"
 description: ""
 tags: [Git]
 redirect_from:

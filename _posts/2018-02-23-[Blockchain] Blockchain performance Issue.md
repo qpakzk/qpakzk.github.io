@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Blockchain performance Issue"
+title: "Blockchain performance Issue"
 description: ""
 tags: [Blockchain]
 redirect_from:

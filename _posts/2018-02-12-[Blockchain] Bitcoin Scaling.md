@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blockchain] Bitcoin Scaling"
+title: "Bitcoin Scaling"
 description: ""
 tags: [Blockchain]
 redirect_from:

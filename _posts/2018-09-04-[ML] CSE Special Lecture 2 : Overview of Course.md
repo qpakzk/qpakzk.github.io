@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[ML] CSE Special Lecture 2 : Overview of Course"
+title: "CSE Special Lecture 2 : Overview of Course"
 description: ""
 tags: [ML]
 redirect_from:

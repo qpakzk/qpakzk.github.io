@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[DS] Data Structure Overview"
+title: "Data Structure Overview"
 description: ""
 tags: [DS]
 redirect_from:

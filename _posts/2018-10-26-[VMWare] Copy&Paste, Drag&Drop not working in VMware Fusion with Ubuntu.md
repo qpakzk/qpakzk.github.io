@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[VMWare] Copy&Paste, Drag&Drop not working in VMware with Ubuntu"
+title: "Copy&Paste, Drag&Drop not working in VMware with Ubuntu"
 description: ""
 tags: [VMWare]
 redirect_from:

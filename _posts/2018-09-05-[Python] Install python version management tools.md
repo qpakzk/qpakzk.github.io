@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Install python version management tools"
+title: "Install python version management tools"
 description: ""
 tags: [Python]
 redirect_from:
