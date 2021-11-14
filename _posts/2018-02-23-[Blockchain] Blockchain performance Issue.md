@@ -2,7 +2,7 @@
 layout: post
 title: "[Blockchain] Blockchain performance Issue"
 description: ""
-categories: [Blockchain]
+tags: [Blockchain]
 redirect_from:
   - /2018/02/23/
 ---

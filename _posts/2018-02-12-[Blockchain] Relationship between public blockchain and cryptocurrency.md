@@ -2,7 +2,7 @@
 layout: post
 title: "[Blockchain] Relationship between public blockchain and cryptocurrency"
 description: ""
-categories: [Blockchain]
+tags: [Blockchain]
 redirect_from:
   - /2018/02/12/
 ---
