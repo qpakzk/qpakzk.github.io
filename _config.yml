@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: https://qpakzk.github.io/software-notes
+url: https://qpakzk.github.io
 baseurl:
 title: Software Notes
 description: ""
