@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 gemspec
+gem "kramdown-parser-gfm"
 
 # If you've just forked the repo,
 # please remove the content above and uncomment the following before bundling.
@@ -14,3 +15,6 @@ gemspec
 #   gem 'jekyll-seo-tag'
 #   gem 'jekyll-sitemap'
 # end
+
+# Added at 2021-11-14 23:18:38 +0900 by frodo:
+gem "webrick", "~> 1.7"
