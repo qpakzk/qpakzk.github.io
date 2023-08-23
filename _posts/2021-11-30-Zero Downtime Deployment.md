@@ -23,7 +23,7 @@ This method involves maintaining two parallel environments for the application. 
 
 Though this method offers a rapid rollback mechanism, it necessitates duplicating resources. While the switch between environments is seamless, any disparity in data between the two might result in complications.
 
-## Canary Deployment**
+## Canary Deployment
 
 Canary Deployment is characterized by deploying the new version to a limited set of instances, gradually increasing its exposure based on feedback and performance metrics.
 
@@ -41,4 +41,5 @@ In an era where continuous deployment has become the norm, the significance of z
 - [Cloudbees Blog on Rolling Deployment](https://www.cloudbees.com/blog/rolling-deployment)
 - [Cloudbees Blog on Blue-Green Deployment](https://www.cloudbees.com/blog/blue-green-deployment)
 
-[^1] Continuous Deployment Trends, [Link](https://imgur.com/a/3uBZKBN)
+
+[^1]: Continuous Deployment Trends, [Link](https://imgur.com/a/3uBZKBN)
