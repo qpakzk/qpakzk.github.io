@@ -1,41 +1,44 @@
 ---
 layout: post
-title: "무중단 배포 (Zero Downtime Deployment)"
+title: "Zero Downtime Deployment: A Comparative Analysis of Methodologies"
 description: ""
 tags: [DevOps]
 redirect_from:
   - /2021/11/30/
 ---
 
-# 무중단 배포 (Zero Downtime Deployment)
+# Zero Downtime Deployment: A Comparative Analysis of Methodologies
 
-새로운 버전을 배포하는 가장 간단한 방법은 기존에 실행 중인 애플리케이션을 내리고 새로운 버전의 애플리케이션으로 배포하는 것이다. 그러나 이런식으로 배포할 경우, 서비스가 중단되는 다운타임(downtime)이 발생하게 된다. 최근에 배포를 빈번하게 하는 것(continuous deployment)이 보편화되면서[^1] 다운타임이 없는 무중단 배포를 하는 것이 중요해졌다.
+The software deployment landscape has evolved, necessitating methodologies that prevent service interruptions. In the modern era of continuous deployment[^1], achieving zero downtime during deployments has become paramount. This article elucidates three predominant techniques for achieving this feat: Rolling Deployment, Blue-Green Deployment, and Canary Deployment. All these methodologies harness the capabilities of load balancers to maintain service continuity.
 
-무중단 배포 기법으로 롤링 배포(Rolling Deployment), 블루-그린 배포(Blue-Green Deployment), 카나리 배포(Canary Deploymen) 이 세 가지 방식이 일반적으로 알려져 있다. 무중단 배포 기법들의 공통점은 로드밸런서(load balancer)를 통해 여러 인스턴스들로 들어오는 트래픽을 제어하여 새로운 버전을 배포할 때 서비스 운영에 영향을 받지 않도록 하는 것이다.
+## Rolling Deployment
 
-## 롤링 배포 (Rolling Deployment)
+This approach entails deploying the new version sequentially across application instances. It negates the need for additional infrastructure, thereby being cost-efficient. 
 
-롤링 배포는 새로운 버전을 애플리케이션의 인스턴스들로 순차적으로 배포하는 기법이다. 버전 1로 네 개 노드가 돌고 있을 때, 버전 2를 배포한 노드 1을 띄우고 버전 1을 실행시키는 노드 1을 내린다. 그런 다음에 버전 2를 배포한 노드 2를 띄우고 버전 1을 실행시키는 노드 2를 내린다. 나머지 노드도 이와 같은 방식으로 순차적으로 버전 1을 버전 2로 교체해 나간다. 동시에 배포하는 노드 크기를 윈도우 사이즈(window size)라고 표현하는데, 여기서는 윈도우 사이즈를 1로 표현했지만 설정하기 나름이다.
+While resource-effective, the challenge lies in ensuring compatibility between the concurrently running versions. If the versions are not backward-compatible, inconsistencies may arise, potentially compromising the system's integrity.
 
-롤링 배포는 제한된 자원 내에서 무중단 배포를 할 수 있기 때문에, 블루-그린 배포에 비해 비용이 감소한다. 그러나 배포 과정에서 이전 버전과 새로운 버전이 공존하는 기간이 있기 때문에, 배포 오케스트레이션(deployment orchestration)이 까다롭고, 이전 버전과 새로운 버전이 상호 호환적인 배포인 경우에만 사용 가능하다.
+## Blue-Green Deployment
 
-## 블루-그린 배포 (Blue-Green Deployment)
+This method involves maintaining two parallel environments for the application. Upon deploying the new version on the secondary environment, traffic is rerouted to it.
 
-블루-그린 배포는 동일한 환경의 애플리케이션을 이중으로 구성하여 배포하는 기법이다. 버전 1을 실행 중인 블루 인스턴스로 서비스를 하고 있는 상황에서 버전 2를 배포하려고 할 때, 블루 인스턴스와 동일한 환경의 그린 인스턴스에 버전 2를 배포한 후 실행시킨다. 로드 밸런서를 통해 블루 인스턴스로 가던 트래픽을 그린 인스턴스로 들어오도록 변경시킨다. 버전 3을 배포할 때도 동일한 방식으로 진행한다.
+Though this method offers a rapid rollback mechanism, it necessitates duplicating resources. While the switch between environments is seamless, any disparity in data between the two might result in complications.
 
-블루-그린 배포는 직관적이기 때문에 빠르게 구축하기 쉽고, 문제가 발생했을 경우 이전 버전으로 롤백(rollback)하기도 용이하다. 그러나 동일한 환경을 이중으로 구축하기 때문에 자원이 롤링 배포에 비해 두 배가 필요하다.
+## Canary Deployment**
 
-## 카나리 배포 (Canary Deployment)
+Canary Deployment is characterized by deploying the new version to a limited set of instances, gradually increasing its exposure based on feedback and performance metrics.
 
-카나리 배포는 일부 인스턴스에만 먼저 새로운 버전을 배포하고 트래픽을 분산하여 일부 사용자들에게 새로운 버전에 대한 테스트를 받는 기법이다. 카나리(Canary)는 카나리아새로부터 유래했다. 카나리아는 일산화탄소, 메탄 등 유독 가스에 민감하기 때문에 과거 광산에서 유독 가스 유출 위험을 감지하는데 활용되었다. 카나리 배포에서는 일부 사용자들이 카나리아 역할을 해서 피드백을 통해 위험을 빨리 감지할 수 있다.
+While allowing for real-time feedback, a crucial consideration is the representativeness of the selected user subset. Any misrepresentation can lead to overlooking potential system-wide issues.
 
+## Conclusion
 
-## 참고문헌
+In an era where continuous deployment has become the norm, the significance of zero downtime deployment methodologies cannot be understated. Each technique discussed presents unique advantages and challenges. The onus lies on organizations to critically evaluate these based on their infrastructure, risk appetite, and deployment cadence.
 
-- https://www.samsungsds.com/kr/insights/1256264_4627.html
-- https://potato-yong.tistory.com/136
-- https://harness.io/blog/blue-green-canary-deployment-strategies/
-- https://www.cloudbees.com/blog/rolling-deployment
-- https://www.cloudbees.com/blog/blue-green-deployment
+## Bibliography
 
-[^1] https://imgur.com/a/3uBZKBN
+- [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html)
+- [Potato Yong's Blog](https://potato-yong.tistory.com/136)
+- [Harness](https://harness.io/blog/blue-green-canary-deployment-strategies/)
+- [Cloudbees Blog on Rolling Deployment](https://www.cloudbees.com/blog/rolling-deployment)
+- [Cloudbees Blog on Blue-Green Deployment](https://www.cloudbees.com/blog/blue-green-deployment)
+
+[^1] Continuous Deployment Trends, [Link](https://imgur.com/a/3uBZKBN)
