@@ -1,26 +1,26 @@
 ---
-layout: post
-title: "Process of Linux Kernel perf contribution"
-description: ""
-tags: [Perf]
-redirect_from:
+layout: post  
+title: "Contributing to the Linux Kernel's perf tool"  
+description: "A comprehensive tutorial detailing the process of contributing to the Linux Kernel's perf tool." 
+tags: [Perf]  
+redirect_from:  
   - /2017/02/06/
 ---
 
-# Process of Linux Kernel perf contribution
+# Contributing to the Linux Kernel's perf tool
 
-In this post, I'll talk about how to contribute to Linux Kernel. I'll exercise on Ubuntu.
+In this article, we delve into the systematic approach to contribute to the Linux Kernel, specifically focusing on the 'perf' tool. This tutorial employs Ubuntu as its primary operating system.
 
-## 1. Configuration
+## 1. Configuring Git for Contributions
 
-First of all, configure an username and an email address in Git.
+Begin by setting up your Git environment. Configure both your username and email address as follows:
 
 ```sh
 $ git config --global user.name "Sangwon Hong"
 $ git config --global user.email qpakzk@gmail.com
 ```
 
-And configure the email sending options.
+Subsequently, set up your email sending preferences:
 
 ```sh
 $ git config --global sendemail.smtpencryption tls
@@ -29,11 +29,11 @@ $ git config --global sendemail.smtpuser qpakzk@gmail.com
 $ git config --global sendemail.smtpserverport 587
 ```
 
-## 2. Make a commit
+## 2. Committing Changes
 
-After adding modified files, make a commit.
+Once you've made your modifications, stage the changes and proceed to commit them.
 
-If you want to make a commit on the command line, you can do like this:
+For those who prefer using the command line for committing:
 
 ```sh
 $ git commit -sm "perf data: Document missing --force option
@@ -44,13 +44,13 @@ Cc: Jiri Olsa <jolsa@kernel.org>
 Cc: Namhyung Kim <namhyung@kernel.org>
 ```
 
-Otherwise, if you would like to use the editor like Vim, enter 'git commit -s' in the shell.
+Alternatively, if you're inclined to use an editor such as Vim:
 
 ```sh
 $ git commit -s
 ```
 
-And then the editor opens. Write messages to make a commit.
+Upon doing so, the editor will open. Craft your commit message as exemplified below:
 
 ```sh
 perf data: Document missing --force option
@@ -62,23 +62,23 @@ Cc: Namhyung Kim <namhyung@kernel.org>
 Signed-off-by: Sangwon Hong <qpakzk@gmail.com>
 ```
 
-## 3. Make a patch
+## 3. Generating a Patch
 
-Make a patch to send it to the maintainer. The patch has a commit message.
+Once your commit is ready, create a patch which encompasses your commit message:
 
 ```sh
 $ git format-patch -1
 ```
 
-## 4. Send a patch
+## 4. Transmitting the Patch
 
-It's not default subcommand sending email in git. So first of all, it needs to install send-email package.
+Git does not include an inherent subcommand for email transmission. As a result, one must first install the `send-email` package:
 
 ```sh
 $ sudo apt-get install git-email
 ```
 
-Ans send a patch to the maintainer. If you send it including other developers, you can use -cc option.
+To send your patch to the maintainer (and possibly include other developers), utilize the `-cc` option:
 
 ```sh
 $ git send-email --to "Arnaldo Carvalho de Melo <acme@kernel.org>" \
@@ -88,4 +88,4 @@ $ git send-email --to "Arnaldo Carvalho de Melo <acme@kernel.org>" \
 0001-perf-data-Document-missing-force-option.patch
 ```
 
-ps. if you send email on the shell, let less secure apps use your account. For doing this, enter [this site](https://support.google.com/accounts/answer/6010255?hl=en).
+**Note:** If you're sending emails via the shell, ensure to allow less secure apps to access your account. Instructions for the same can be found on [this support page](https://support.google.com/accounts/answer/6010255?hl=en).
